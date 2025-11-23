@@ -15,12 +15,14 @@ body {
     align-items: center;
     width: 375px;
     height: 67px;
+    border: 2px solid black;
     border-bottom: 1px solid #C6C6C6;
     margin: 0 auto;
     padding: 0 10px;
     /* background-color: #C6C6C6; */
     background-color: white;
     box-sizing: border-box;
+    /* border-radius: 10px; */
 }
 
 .your-avatar,
@@ -38,9 +40,10 @@ body {
     width: 375px;
     height: 1700px;
     margin: 0 auto;
-    /* border: 2px solid grey; */
+    border: 2px solid black;
     /* padding: 0 10px; */
     border-top: none;
+    box-sizing: border-box;
 }
 
 .profile {
